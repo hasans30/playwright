@@ -1,0 +1,16 @@
+{
+  "name": "scenario_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env CI=true playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.22.1",
+    "cross-env": "^7.0.3"
+  }
+}
